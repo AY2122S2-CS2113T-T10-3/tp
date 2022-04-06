@@ -7,9 +7,6 @@ import seedu.duke.commands.OptionCommand;
 import seedu.duke.exceptions.ModHappyException;
 import seedu.duke.util.StringConstants;
 
-/**
- * This Parser supports the "option" command.
- */
 public class OptionParser extends Parser {
     // Unescaped Regex for testing
     // ((?<configurationGroupWord>[A-Z_]+)(=(?<newValue>\w+))?)?(?<invalid>.*)

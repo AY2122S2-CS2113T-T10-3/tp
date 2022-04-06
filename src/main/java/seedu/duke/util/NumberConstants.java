@@ -29,8 +29,7 @@ public class NumberConstants {
     /**
      * For AddParsers.
      */
-    public static final int MAXIMUM_MODULAR_CREDITS = 20;
-    public static final int MINIMUM_MODULAR_CREDITS = 0;
+    public static final int MAXIMUM_MODULAR_CREDITS = 100;
 
     /**
      * For GpaCommand.

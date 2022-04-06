@@ -2,9 +2,6 @@ package seedu.duke.exceptions;
 
 import seedu.duke.util.StringConstants;
 
-/**
- * Exception to be thrown when command word entered by the user is not recognised.
- */
 public class UnknownCommandException extends ModHappyException {
     private static final String ERROR_MESSAGE = StringConstants.ERROR_UNKNOWN_COMMAND + LS + "\"%s\"";
 
